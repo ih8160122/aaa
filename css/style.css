@@ -181,15 +181,15 @@ section .sec01 {
   width: 1700px;
   height: 1000px;
   margin: 0 auto;
-  position: relative;
 }
 section .sec01 h3 {
   font-family: Pretendard;
-  font-size: 25px;
+  font-size: 45px;
 }
 
 section .sec01 .inner02 {
   display: flex;
+  gap: 30px;
 }
 section .sec01 p {
   font-family: Pretendard;
@@ -199,11 +199,11 @@ section .sec01 p {
 section .sec01 img {
   display: flex;
 
-  width: 1006px;
+  width: 100%;
 }
 section .sec01 .sec_img01 {
   display: flex;
-  gap: 50px;
+
   justify-content: center;
   align-items: center;
   box-shadow: 5px 5px 8px #ccc;
@@ -222,18 +222,28 @@ section .sec02 {
 }
 section .sec02 h3 {
   font-family: Pretendard;
-  font-size: 25px;
+  font-size: 45px;
 }
 section .sec02 p {
-  width: 1006px;
   margin: 0 auto;
   font-family: Pretendard;
   box-shadow: 5px 5px 8px #ccc;
 }
+section .sec02 .sec_img01 {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 8px #ccc;
+}
 
+section .sec02 .sec_icon01 img {
+  margin-bottom: 50px;
+  width: 40px;
+  height: 40px;
+}
 section .sec02 img {
   display: flex;
-
   width: 1006px;
 }
 section .sec02 .sec_img02 {
