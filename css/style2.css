@@ -46,26 +46,12 @@ header .menu {
   right: 50px;
   top: 20px;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
 }
-header .menu img {
-  width: 30px;
-  padding-top: 20px;
-  padding-right: 55px;
-}
-
 header .menu .ul1d {
-  display: none;
-}
-header .menu:hover .ul1d {
-  width: 150px;
-  height: 200px;
-  display: block;
+  display: flex;
+  margin-right: 500px;
+  align-items: center;
   text-align: center;
-  line-height: 60px;
-  background: #fff;
 }
 
 header .tit {
