@@ -240,3 +240,45 @@ section .sec02 .sec_icon02 img {
   width: 40px;
   height: 40px;
 }
+section .sec03 {
+  width: 1700px;
+  height: 1000px;
+  margin: 0 auto;
+}
+section .sec03 h3 {
+  font-family: Pretendard;
+  font-size: 45px;
+}
+section .sec03 p {
+  margin: 0 auto;
+  font-family: Pretendard;
+  box-shadow: 5px 5px 8px #ccc;
+}
+section .sec03 .sec_img01 {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 8px #ccc;
+}
+
+section .sec03 .sec_icon01 img {
+  margin-bottom: 50px;
+  width: 40px;
+  height: 40px;
+}
+section .sec03 img {
+  display: flex;
+  width: 1006px;
+}
+section .sec03 .sec_img02 {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .sec03 .sec_icon02 img {
+  margin-top: 300px;
+  width: 40px;
+  height: 40px;
+}
