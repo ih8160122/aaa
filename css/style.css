@@ -12,7 +12,9 @@
 ul {
   list-style: none;
 }
-
+body {
+  overflow-x: hidden;
+}
 a {
   font-family: Pretendard;
   text-decoration: none;
@@ -75,7 +77,10 @@ header .tit {
 
   padding-top: 350px;
 }
-
+header .tit h1 {
+  font-family: Pretendard;
+  font-size: 60px;
+}
 header .tit span {
   font-family: Pretendard;
   font-size: 50px;
@@ -178,6 +183,22 @@ section .sec01 {
   width: 1700px;
   height: 1000px;
   margin: 0 auto;
+  position: relative;
+}
+section .sec01 .swiper {
+  overflow: visible;
+}
+
+section .sec01 .swiper-button-next {
+  right: 0 !important;
+  color: #333;
+}
+section .sec01 .swiper-button-prev {
+  left: 10px !important;
+  color: #333;
+}
+section .sec01 .swiper-button-next img {
+  width: 50%;
 }
 section .sec01 h3 {
   font-family: Pretendard;
@@ -185,8 +206,8 @@ section .sec01 h3 {
 }
 
 section .sec01 .inner02 {
-  display: flex;
-  gap: 30px;
+  /* display: flex; */
+  /*gap: 30px; */
 }
 section .sec01 p {
   font-family: Pretendard;
@@ -194,8 +215,6 @@ section .sec01 p {
   margin: 0 auto;
 }
 section .sec01 img {
-  display: flex;
-
   width: 100%;
 }
 section .sec01 .sec_img01 {
