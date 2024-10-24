@@ -18,7 +18,12 @@ a {
   text-decoration: none;
   color: #000;
 }
-
+.section {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
 header {
   max-width: 1900px;
   width: 100%;
@@ -43,15 +48,15 @@ header .inner01 img {
 }
 header .menu {
   position: absolute;
-  right: 50px;
-  top: 20px;
+  right: 150px;
+  top: 35px;
   display: flex;
 }
 header .menu .ul1d {
   display: flex;
-  margin-right: 500px;
-  align-items: center;
+
   text-align: center;
+  gap: 150px;
 }
 
 header .tit {
@@ -64,8 +69,8 @@ header .tit {
 
 header .tit span {
   font-family: Pretendard;
-  font-size: 50px;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 100px;
 }
 header .tit span:last-child {
   color: #6da2e8;
@@ -159,60 +164,73 @@ main .pr_sub > li {
   bottom: -100px;
   right: -50px;
 }
-
-section .sec01 {
+.swiper-button-next,
+.swiper-button-prev {
+  width: 80px !important;
+}
+.swiper-button-next img,
+.swiper-button-prev img {
+  width: 100% !important;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "" !important;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "" !important;
+}
+.sec01 {
   width: 1700px;
-  height: 1000px;
   margin: 0 auto;
 }
-section .sec01 h3 {
+.sec01 h3 {
   font-family: Pretendard;
   font-size: 45px;
 }
 
-section .sec01 .inner02 {
-  display: flex;
-  gap: 30px;
-}
-section .sec01 p {
+.sec01 p {
   font-family: Pretendard;
   width: 1006px;
   margin: 0 auto;
 }
-section .sec01 img {
+.sec01 .swiper-slide img {
   display: flex;
-
-  width: 100%;
+  width: 80%;
 }
-section .sec01 .sec_img01 {
+.sec01 .sec_img01 {
   display: flex;
-
   justify-content: center;
   align-items: center;
   box-shadow: 5px 5px 8px #ccc;
 }
-
-section .sec01 .sec_icon01 img {
-  margin-top: 350px;
-  width: 40px;
-  height: 40px;
+.sec01 .sec_txt {
+  margin: 0 auto;
+  margin-right: 150px;
+  width: 30%;
+  height: 100%;
 }
 
-section .sec02 {
+.sec01 .sec_icon01 img {
+  margin-top: 350px;
+  width: 20px;
+  height: 20px;
+}
+
+.sec02 {
   width: 1700px;
-  height: 1000px;
   margin: 0 auto;
 }
-section .sec02 h3 {
+.sec02 h3 {
   font-family: Pretendard;
   font-size: 45px;
 }
-section .sec02 p {
-  margin: 0 auto;
+.sec02 .swiper-slide {
   font-family: Pretendard;
   box-shadow: 5px 5px 8px #ccc;
+  text-align: center;
 }
-section .sec02 .sec_img01 {
+.sec02 .sec_img01 {
   display: flex;
   gap: 50px;
   justify-content: center;
@@ -220,41 +238,40 @@ section .sec02 .sec_img01 {
   box-shadow: 5px 5px 8px #ccc;
 }
 
-section .sec02 .sec_icon01 img {
+.sec02 .sec_icon01 img {
   margin-bottom: 50px;
   width: 40px;
   height: 40px;
 }
-section .sec02 img {
+.sec02 img {
   display: flex;
   width: 1006px;
 }
-section .sec02 .sec_img02 {
+.sec02 .sec_img02 {
   gap: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section .sec02 .sec_icon02 img {
+.sec02 .sec_icon02 img {
   margin-top: 300px;
   width: 40px;
   height: 40px;
 }
-section .sec03 {
+.sec03 {
   width: 1700px;
-  height: 1000px;
   margin: 0 auto;
 }
-section .sec03 h3 {
+.sec03 h3 {
   font-family: Pretendard;
   font-size: 45px;
 }
-section .sec03 p {
+.sec03 p {
   margin: 0 auto;
   font-family: Pretendard;
-  box-shadow: 5px 5px 8px #ccc;
+  /* box-shadow: 5px 5px 8px #ccc; */
 }
-section .sec03 .sec_img01 {
+.sec03 .sec_img01 {
   display: flex;
   gap: 50px;
   justify-content: center;
@@ -262,22 +279,22 @@ section .sec03 .sec_img01 {
   box-shadow: 5px 5px 8px #ccc;
 }
 
-section .sec03 .sec_icon01 img {
+.sec03 .sec_icon01 img {
   margin-bottom: 50px;
   width: 40px;
   height: 40px;
 }
-section .sec03 img {
+.sec03 img {
   display: flex;
   width: 1006px;
 }
-section .sec03 .sec_img02 {
+.sec03 .sec_img02 {
   gap: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section .sec03 .sec_icon02 img {
+.sec03 .sec_icon02 img {
   margin-top: 300px;
   width: 40px;
   height: 40px;
