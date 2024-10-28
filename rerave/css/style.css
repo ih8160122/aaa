@@ -1,0 +1,301 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: Pretendard;
+  src: url(webfonts/Pretendard-Medium.woff) format(woff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Marcellus;
+  src: url(webfonts/Marcellus-Regular.woff) format(woff);
+}
+@font-face {
+  font-family: Pretendard;
+  src: url(webfonts/Pretendard-Regular.woff) format(woff);
+}
+
+ul {
+  list-style: none;
+}
+a {
+  font-family: Marcellus;
+  text-decoration: underline;
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+}
+header {
+  max-width: 1900px;
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+header p {
+  position: relative;
+}
+header p img {
+  width: 100%;
+}
+.inner {
+  width: 1800px;
+  height: 20px;
+  padding: 40px;
+  margin-left: 30px;
+  position: absolute;
+  top: 20px;
+
+  left: 0;
+}
+.inner .logo {
+  width: 135px;
+  height: 20px;
+}
+.menu {
+  text-align: center;
+  font-family: Marcellus;
+  color: #fff;
+}
+.menu .ul1d {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.menu .ul1d > ul {
+  display: flex;
+  gap: 30px;
+}
+.menu .ul1d a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu .ul1d li a img {
+  width: 25px;
+}
+.menu .ul2d {
+  display: none;
+}
+.menu .pr:hover .ul2d {
+}
+
+.menu .topBanner {
+  margin-top: 250px;
+}
+.menu .topBanner h2 {
+  font-weight: normal;
+  font-size: 70px;
+}
+.menu .topBanner p {
+  font: 26px;
+  line-height: 50px;
+}
+.menu .topBanner p a {
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  margin: 150px auto;
+}
+
+main ul {
+  font-family: Pretendard;
+  display: flex;
+  width: 1730px;
+  margin: 0 auto;
+  gap: 60px;
+  height: 900px;
+  align-items: center;
+}
+main ul img {
+  width: 680px;
+}
+
+main .con p:first-child {
+  font-size: 16px;
+  color: rgb(153, 153, 153);
+}
+main .con p:last-child {
+  color: #000;
+}
+main ul.con01 .con_txt {
+  font-weight: normal;
+  padding-left: 100px;
+}
+main div.sec02 {
+  position: relative;
+}
+main ul.con02 {
+  flex-direction: row-reverse;
+  width: 1730px;
+  margin: 0 auto;
+}
+main ul.con02 img {
+  width: 1050px;
+}
+main ul.con02 .bg {
+  z-index: -1;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  width: 100%;
+}
+main ul.con02 .bg img {
+  width: 100%;
+  object-fit: cover;
+}
+
+main .con_txt p:first-child {
+  line-height: 30px;
+}
+main .con_txt h3 {
+  font-weight: normal;
+  font-family: Marcellus;
+  font-size: 60px;
+}
+
+main .con_txt h2 {
+  font-weight: normal;
+  font-size: 28px;
+  padding: 20px 0;
+}
+main .con_txt p {
+  font-weight: normal;
+  margin: 20px 0;
+}
+main .con_txt a {
+  line-height: 100px;
+}
+.about {
+  padding-top: 200px;
+  position: relative;
+  font-weight: normal;
+  display: flex;
+  width: 1730px;
+  margin: 0 auto;
+  gap: 150px;
+  align-items: center;
+}
+.about .bg2 {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  left: -100px;
+  bottom: -250px;
+}
+.about .img_wr {
+  display: flex;
+  gap: 30px;
+}
+.about .txt_wr {
+  font-family: Marcellus;
+
+  text-align: center;
+}
+.about .txt_wr p:first-child {
+  color: #ccc;
+}
+.about .txt_wr p {
+  font-family: Pretendard;
+}
+.about .txt_wr h3 {
+  font-weight: normal;
+  padding: 30px;
+  font-size: 60px;
+}
+.about .txt_wr a {
+  line-height: 70px;
+}
+.technology {
+  margin-top: 200px;
+}
+
+.technology .tit_txt {
+  font-family: Pretendard;
+  padding: 180px 100px 80px 80px;
+}
+.tech_tit .tit li img {
+  filter: grayscale();
+}
+
+.tech_tit .tit li:hover img {
+  filter: none;
+  transition: 0.8s;
+  border-radius: 40px;
+}
+
+.technology .tit_txt h3 {
+  font-family: Marcellus;
+  font-weight: normal;
+  font-size: 60px;
+  padding: 20px 0;
+}
+/* 타이틀 끝 */
+
+.technology .tech_tit {
+  display: flex;
+  margin: 0 auto;
+  width: 1730px;
+  gap: 50px;
+}
+.technology .tech_tit .tit {
+  position: relative;
+}
+.technology .tit .tech_txt {
+  color: #fff;
+  font-family: Pretendard;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.technology .tit .tech_txt h2 {
+  font-size: 42px;
+  font-family: Marcellus;
+  font-weight: normal;
+}
+.technology .tit .tech_txt p {
+  position: relative;
+  left: 0;
+  bottom: -430px;
+  line-height: 22px;
+  font-family: Pretendard;
+}
+
+.technology .tit img {
+  width: 550px;
+}
+footer {
+  width: 1730px;
+  height: 134px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 150px;
+  align-items: center;
+
+  justify-content: space-between;
+}
+footer .copyright p {
+  line-height: 150px;
+  font-size: 12px;
+  color: rgb(186, 186, 186);
+}
+
+footer .ft_txt {
+  display: flex;
+  gap: 100px;
+  justify-content: flex-end;
+}
+
+footer .ft_txt li {
+  font-family: Marcellus;
+  font-size: 12px;
+}
+footer .ft_txt li a {
+  font-family: Marcellus, Pretendard;
+  font-size: 12px;
+}
