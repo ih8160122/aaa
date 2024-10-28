@@ -59,13 +59,14 @@ header {
   text-align: center;
   gap: 150px;
 }
-
 header .tit {
   width: 1700px;
-  height: 750px;
+  height: 800px;
   margin: 0 auto;
+}
 
-  padding-top: 500px;
+header .tit .tit_txt {
+  padding-top: 300px;
 }
 
 header .tit span {
@@ -181,7 +182,14 @@ main .section01 .about p {
   box-shadow: -2px 2px 2px rgb(225, 224, 224);
 }
 .sec01 .sec_img01 img {
+  transition: 0.3s;
   width: 550px;
+}
+.sec01 .sec_img01 p {
+  overflow: hidden;
+}
+.sec01 .sec_img01:hover img {
+  transform: scale(1.2);
 }
 
 h4 {
@@ -196,6 +204,10 @@ h4 {
   font-size: 30px;
   padding-bottom: 10px;
   color: #000;
+  transition: 0.5s;
+}
+.sec01 h3:hover {
+  color: rgb(3, 102, 202);
 }
 .sec01 h5 {
   color: #000;
